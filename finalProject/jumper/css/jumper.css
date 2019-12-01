@@ -1,0 +1,123 @@
+body{
+    background-color: blue;
+    background: url("../media/circles.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    background: radial-gradient(skyblue, blue, skyblue);
+    box-shadow: 1px 1px 15px 10px white;
+    border-radius: 50px;
+    font-size: 36pt;
+    font-family: "Snap ITC", sans-serif;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+}
+footer{
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    padding: 2px;
+    font-size: 8pt;
+    position: fixed;
+    bottom: 0;
+}
+canvas{
+    border: 5px solid blue;
+    background-color: skyblue;
+    background: url("../media/canvasBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 15px 10px white;
+    margin-left: 30%;
+}
+#move{
+    font-family: "Snap ITC", sans-serif;
+    color: white;
+    background-color: blue;
+    border: 1px solid white;
+    box-shadow: 1px 1px 15px 10px white;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 18pt;
+    margin-top: 20px;
+    margin-left: 46%;
+    visibility: hidden;
+}
+#play{
+    font-family: "Snap ITC", sans-serif;
+    color: white;
+    background-color: blue;
+    border: 1px solid white;
+    box-shadow: 1px 1px 15px 10px white;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 18pt;
+    margin-top: 20px;
+    margin-left: 46%;
+}
+button:hover{
+    color: blue;
+    background-color: white;
+}
+#replay{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 45%;
+    font-size: 18pt;
+    font-family: "Snap ITC", sans-serif;
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+    box-shadow: 1px 1px 15px 10px white;
+    border-radius: 20px;
+    padding: 5px;
+    visibility: hidden;
+}
+#mySidenav a
+{
+    position: absolute;
+    left: -210px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 200px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 16pt;
+    color: white;
+    border-radius: 0 5px 5px 0px;
+}
+#mySidenav a:hover
+{
+    left: 0;
+    cursor: pointer;
+}
+#games
+{
+    top: 210px;
+    color: white;
+    text-shadow: 1px 1px black;
+    background: radial-gradient(green, greenyellow);
+    box-shadow: 1px 1px 10px white;
+    font-family: "Snap ITC", sans-serif;
+}
+#instructions
+{
+    top: 280px;
+    color: white;
+    text-shadow: 1px 1px black;
+    background: radial-gradient(green, greenyellow);
+    box-shadow: 1px 1px 10px white;
+    font-family: "Snap ITC", sans-serif;
+}
+#readme
+{
+    top: 350px;
+    color: white;
+    text-shadow: 1px 1px black;
+    background: radial-gradient(green, greenyellow);
+    box-shadow: 1px 1px 10px white;
+    font-family: "Snap ITC", sans-serif;
+}

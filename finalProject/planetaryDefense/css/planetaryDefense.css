@@ -1,0 +1,109 @@
+body{
+    background: url("../media/asteroid.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    background-color: black;
+    padding: 10px;
+    font-size: 36pt;
+    font-family: "Magneto", sans-serif;
+    text-align: center;
+    color: purple;
+    text-shadow: 1px 1px magenta;
+    box-shadow: 1px 1px 10px magenta;
+    border-radius: 25px;
+}
+#mySidenav a
+{
+    position: absolute;
+    left: -210px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 200px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 16pt;
+    color: purple;
+    border-radius: 0 5px 5px 0px;
+    text-shadow: 1px 1px magenta;
+}
+#mySidenav a:hover
+{
+    left: 0;
+    cursor: pointer;
+}
+#games
+{
+    top: 210px;
+    background-color: black;
+    box-shadow: 1px 1px 10px magenta;
+    font-family: "Magneto", sans-serif;
+}
+#instructions
+{
+    top: 280px;
+    background-color: black;
+    box-shadow: 1px 1px 10px magenta;
+    font-family: "Magneto", sans-serif;
+}
+#readme
+{
+    top: 350px;
+    background-color: black;
+    box-shadow: 1px 1px 10px magenta;
+    font-family: "Magneto", sans-serif;
+}
+
+footer{
+    color: white;
+    font-size: 8pt;
+    position: fixed;
+    bottom: 0;
+}
+
+canvas{
+    background: url("../media/stars2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid purple;
+    box-shadow: 1px 1px 10px magenta;
+    padding: 5px;
+    margin-left: 24%;
+}
+#play{
+    font-family: "Magneto", sans-serif;
+    color: purple;
+    text-shadow: 1px 1px magenta;
+    background-color: black;
+    border: 1px solid purple;
+    box-shadow: 1px 1px 15px 10px magenta;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 18pt;
+    margin-top: 0px;
+    margin-left: 45%;
+}
+#play:hover{
+    background-color: silver;
+    cursor: pointer;
+}
+#replay{
+    font-family: "Magneto", sans-serif;
+    color: purple;
+    text-shadow: 1px 1px magenta;
+    background-color: black;
+    border: 1px solid purple;
+    box-shadow: 1px 1px 15px 10px magenta;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 18pt;
+    margin-top: 0px;
+    margin-left: 45%;
+}
+#replay:hover{
+    background-color: silver;
+    cursor: pointer;
+}

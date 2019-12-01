@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Jumper</title>
+<link rel="stylesheet" href="css/jumper.css">   
+</head>
+<body scroll="no">
+<h1>Jumper</h1>
+<div id="mySidenav" class="sidenav">
+    <a href="../wingsGames.html" id="games">Wing's Games</a>
+    <a href="instructions.html" id="instructions">Instructions</a>
+    <a href="readme.txt" id="readme">Readme</a>
+</div>
+<footer>
+    <p>
+        &copy Devin Wing, 2019
+    </p>
+</footer>
+<script src="js/jumper.js"></script>
+<div id="buttons">
+    <button id="move" onmousedown="accelerate(-.3), moveImage(), jumpNoise()" onmouseup="accelerate(.5), resetImage()">Jump</button>
+    <button id="replay" onclick="location=URL">Restart</button>
+    <button id="play" onclick="startGame()">Play</button>
+</div>
+</body>    
+</html>

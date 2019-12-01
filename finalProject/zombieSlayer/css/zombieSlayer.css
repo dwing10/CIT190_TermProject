@@ -1,0 +1,71 @@
+body{
+    background: url("../media/zombie.jpg");
+    background-color: black;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Chiller", sans-serif;
+    font-size: 36pt;
+    color: white;
+    text-shadow: 2px 2px red;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 1px 1px 10px 5px red;
+}
+canvas{
+    margin-left: 27%;
+    margin-top: 3%;
+    border: 1px solid black;
+    box-shadow: 1px 1px 15px 5px red;
+}
+footer{
+    bottom: 0;
+    color: white;
+    position: fixed;
+    font-size: 8pt;
+}
+#mySidenav a
+{
+    position: absolute;
+    left: -210px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 200px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 22pt;
+    color: white;
+    border-radius: 0 5px 5px 0px;
+    text-shadow: 1px 1px red;
+}
+#mySidenav a:hover
+{
+    left: 0;
+    cursor: pointer;
+}
+#games
+{
+    top: 210px;
+    background-color: black;
+    box-shadow: 1px 1px 10px red;
+    font-family: "Chiller", sans-serif;
+}
+#instructions
+{
+    top: 280px;
+    background-color: black;
+    box-shadow: 1px 1px 10px red;
+    font-family: "Chiller", sans-serif;
+}
+#readme
+{
+    top: 352px;
+    background-color: black;
+    box-shadow: 1px 1px 10px red;
+    font-family: "Chiller", sans-serif;
+}
